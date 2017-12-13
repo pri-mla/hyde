@@ -8,13 +8,9 @@ permalink:        pretty
 # Setup
 title:            Šarm
 tagline:          'Tagline o produktu'
-description:      'Testno ime je. '
+description:      'Tukaj nekaj na kratko. '
 url:              http://hyde.getpoole.com
-baseurl:          
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+baseurl: 
 
 paginate:         5
 

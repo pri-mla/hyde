@@ -2,12 +2,17 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href={{ "/" | relative_url }}>
+        <a class="sidebar_title" href={{ "/" | relative_url }}>
           {{ site.title }}
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
-      <p class="">Tukaj mogoče kaj o avtorju.</p>
+      <p class="">{{ site.description }}</p>
+
+      <!-- <img style="border-radius: 50%; width:50%" class ="" src={{"/public/mlacnik.jpg" | relative_url }} alt="">
+      <p class="">
+        {{site.author}}
+      </p> -->
     </div>
 
     <nav class="sidebar-nav">
@@ -25,9 +30,9 @@
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. Vse pravice pridržane.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}</p>
   </div>
 </div>

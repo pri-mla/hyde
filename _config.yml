@@ -8,8 +8,18 @@ permalink:        pretty
 # Setup
 title:            Šarm
 tagline:          'Tagline o produktu'
-description:      'Tukaj nekaj na kratko. '
-url:              http://hyde.getpoole.com
+description:      'Primož Mlačnik'
+author:           'Primož Mlačnik (1990), Dravograjčan, kulturolog in asistent na Fakulteti za družbene vede, 
+                  se je prvič rodil v Slovenj Gradcu, kasneje pa tudi v Ljubljani, Santanderju in Luevenu.
+                  Zanima ga vez med psihoanalitično teorijo, književnostjo in kulturo.
+                  Leta 2014 je za diplomsko delo z naslovom Procesi modernosti v delih Hannah Arendt in Franza Kafke: Eichmann v Jeruzalemu in Proces
+                  prejel študentsko Prešernovo nagrado, leta 2016 pa je bila zgodba Tulipanova vest pri reviji Sodobnost 
+                  nominirana za najboljšo kratko zgodbo. Od 2015 sodeluje z Danes je nov dan, Inštitutom za druga vprašanja.
+                  Primož Mlačnik je dvojče, ljubitelj košarke in glasbene improvizacije.'
+book:             '"Oprosti, vem, da le tavam v Minotavrovem labirintu. Pišem ti zaradi tvojega romana, romana iz vinjet, 
+                  bi rekli lepoumniki, ki sem ga prebral, glej ga zlomka, na isti dan, ko smo šli v talijo. Braco, Tone, ti mojstritelj, kakšna bravura! Čisto sem ditirambičen 
+                  in tudi malo ljubosumen ..."'
+url:               http://hyde.getpoole.com
 baseurl: 
 
 paginate:         5

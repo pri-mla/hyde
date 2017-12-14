@@ -78,7 +78,14 @@
 }
 
 .sidebar_title{
-    text-transform: uppercase
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bolder
+}
+
+#author_sidebar {
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .col2 {

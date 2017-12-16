@@ -45,4 +45,4 @@ version:          2.1.0
 github:
   repo:           https://pri-mla.github.io
 
-plugins:          [jekyll-paginate]
+plugins:          [jekyll-paginate, jekyll-seo-tag]

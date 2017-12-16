@@ -4,40 +4,31 @@ title: Naročilo
 ---
 
 
-<!-- <div class="col1">  
-  <img style="width:90%" class ="center" src={{"/public/sarm.jpg" | relative_url }} alt="">
-</div>
-<div class="col2"> -->
-    <!-- <h4 class="center">Naročilo</h4> -->
-    <p class="message">Z nakupom boste podprli predvsem delovanje majhne založbe Cerdonis. Pa avtorja? Avtor je že pred časom izginil v literarni govorici. Govori se, da z malho knjig stoji pred vrati Republike Besed, kjer prosi za azil svojih bralcev. 
-        
-      <br>
-      <br>
-        Cena knjige je 20 evrov skupaj s poštnino.</p>
-    <br>
-  <form action="https://formspree.io/kpravd@gmail.com" method="POST">
-  <div>
-    <label for="name"> Ime in priimek:</label>
-    <input type="text" class="name" name="ime_priimek"placeholder="ime in priimek">
-  </div>
-  <div>
-    <label for="email">E-pošta:</label>
-    <input type="email" class="email form-control" name="_replyto" placeholder="e-poštni naslov">
-  </div>
-  <div>
-    <label for="naslov">Ulica in hišna številka:</label>
-    <input type="text" class="name form-control" name="naslov" placeholder="naslov">
-  </div>
-  <div>
-    <label for="kraj">Poštna številka in kraj:</label>
-    <input type="text" class="name form-control" name="kraj" placeholder="poštna številka in kraj">
-  </div>
 
-  <div>
-    <label>Če želite, dodajte sporočilo:</label>
-    <textarea rows="8" name="message" placeholder="dodatno sporočilo ..."></textarea>
-  </div>
-  <input id="input-submit" type="submit" value="Pošlji">
-</form>
-<!-- </div> -->
+  <p class="message">{{site.order}}</p>
+  <br>
+  <form action="https://formspree.io/kpravd@gmail.com" method="POST">
+    <div>
+      <label for="name"> Ime in priimek:</label>
+      <input type="text" class="name" name="ime_priimek" placeholder="ime in priimek">
+    </div>
+    <div>
+      <label for="email">E-pošta:</label>
+      <input type="email" class="email form-control" name="_replyto" placeholder="e-poštni naslov">
+    </div>
+    <div>
+      <label for="naslov">Ulica in hišna številka:</label>
+      <input type="text" class="name form-control" name="naslov" placeholder="naslov">
+    </div>
+    <div>
+      <label for="kraj">Poštna številka in kraj:</label>
+      <input type="text" class="name form-control" name="kraj" placeholder="poštna številka in kraj">
+    </div>
+  
+    <div>
+      <label>Če želite, dodajte sporočilo:</label>
+      <textarea rows="8" name="message" placeholder="dodatno sporočilo ..."></textarea>
+    </div>
+    <input id="input-submit" type="submit" value="Pošlji">
+  </form>
 

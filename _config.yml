@@ -35,7 +35,7 @@ order:            'Z nakupom boste podprli predvsem delovanje majhne založbe Ce
                   <br>
                   <br> 
                   Cena knjige je 20 evrov skupaj s poštnino. V spodnja okenca vpišite vaše podatke in število izvodov, ki jih naročate. Knjigo boste skupaj s položnico prejeli na dom.'
-url:              http://šarm.info
+#url:              http://šarm.info
 baseurl: 
 
 paginate:         5
